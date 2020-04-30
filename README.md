@@ -12,4 +12,4 @@ This Proof of Concept is directly related to the following blog posts:
 
 * __Native.cs__: Contains all the Native Window API function calls, as well as the necessary structures, and flag enumerators.
 * __Syscalls.cs__: Contains the delegate definition and delegate implementation used to execute our syscall assembly from unmanaged memory.
-* __Program.cs__: Main program application that utilizes our implemented syscall deflate to execute the syscall.
+* __Program.cs__: Main program application that utilizes our implemented syscall delegate to execute the syscall.
